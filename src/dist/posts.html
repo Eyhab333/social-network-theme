@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f165a59b56.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../scss/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar bg-dark">
+        <h1>
+            <a href="dashboard.html">
+                <i class="fa-brands fa-gratipay"></i> Bebo & Nemo <i class="fa-brands fa-gratipay"></i>
+            </a>
+        </h1>
+        <ul>
+            <li><a href="profiles.html">Classic</a></li>
+            <li><a href="posts.html">Posts</a></li>
+            <li><a href="dashboard.html"><i class="fa-solid fa-user"></i>
+                <span class="hide-sm">Dashboard</span>
+            </a></li>
+            <li><a href="login.html"><i class="fa-solid fa-right-from-bracket"></i>
+                <span class="hide-sm">Log out</span>
+            </a></li>
+        </ul>
+    </nav>
+
+    <section class="container">
+        <h1 class="large text-primary">Posts</h1>
+        <p class="lead">
+            <i class="fa-solid fa-user-secret"></i> Welcome to the community
+        </p>
+
+        <div class="post-form">
+            <div class="post-form-header bg-primary">
+                <h3>Say something...</h3>
+            </div>
+            <form class="form my-1">
+                <textarea cols="30" rows="5" placeholder="Create a Post"></textarea>
+                <input type="submit" value="submit" class="btn btn-dark my-1">
+            </form>
+            <div class="posts">
+                <div class="post bg-white my-1 p-1">
+                    <div>
+                        <a href="profile.html">
+                            <img src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=400" 
+                            alt="" class="round-image my-1">
+                            <h4>Jhon Doe</h4>
+                        </a>
+                    </div>
+                    <div>
+                        <p class="my-1">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Corrupti natus suscipit distinctio a sapiente? Dolo
+                            remque veritatis libero sed nesciunt harum. Voluptat
+                            e magni odio sed tempore ad excepturi ducimus quae neque!
+                        </p>
+                        <button class="btn">
+                            <i class="fa-solid fa-thumbs-up"></i> <span>4</span>
+                        </button>
+                        <button class="btn">
+                            <i class="fa-solid fa-thumbs-down"></i>
+                        </button>
+                        <a href="post.html" class="btn btn-primary">Discussion</a>
+                    </div>
+                </div>
+
+                <div class="post bg-white my-1 p-1">
+                    <div>
+                        <a href="profile.html">
+                            <img src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=400" 
+                            alt="" class="round-image my-1">
+                            <h4>Jhon Doe</h4>
+                        </a>
+                    </div>
+                    <div>
+                        <p class="my-1">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Corrupti natus suscipit distinctio a sapiente? Dolo
+                            remque veritatis libero sed nesciunt harum. Voluptat
+                            e magni odio sed tempore ad excepturi ducimus quae neque!
+                        </p>
+                        <button class="btn">
+                            <i class="fa-solid fa-thumbs-up"></i> <span>4</span>
+                        </button>
+                        <button class="btn">
+                            <i class="fa-solid fa-thumbs-down"></i>
+                        </button>
+                        <a href="post.html" class="btn btn-primary">Discussion</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
